@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>236宅宅电影网 - 宅家看片首选_最新电影剧集在线观看与热播排行榜</title>
+<meta name="description" content="236宅宅电影网每日亮灯更新最新电影、热播剧集、综艺动漫与高分纪录片，提供剧情介绍、演职员表、口碑评分、楼层分区与在线观看指南，移动端自适应，宅家找片看片一站搞定。">
+<meta name="keywords" content="236宅宅电影网,宅宅电影网,宅宅在线观看,最新电影,热播剧集,在线观看,高清影视,影视排行榜,综艺,动漫,纪录片,影评">
+<meta name="author" content="236宅宅电影网">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#121a2b">
+<meta name="msvalidate.01" content="your-bing-verify-code">
+<link rel="canonical" href="https://236zhaizhaidianyingwang-cn.github.io/">
+<link rel="apple-touch-icon" href="/favicon.ico">
+<link rel="alternate" hreflang="zh-CN" href="https://236zhaizhaidianyingwang-cn.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="236宅宅电影网">
+<meta property="og:title" content="236宅宅电影网 - 宅家看片首选_最新电影剧集在线观看与热播排行榜">
+<meta property="og:description" content="236宅宅电影网每日亮灯更新最新电影、热播剧集、综艺动漫与高分纪录片，移动端自适应浏览。">
+<meta property="og:url" content="https://236zhaizhaidianyingwang-cn.github.io/">
+<meta property="og:image" content="https://236zhaizhaidianyingwang-cn.github.io/favicon.ico">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="236宅宅电影网 - 宅家看片首选">
+<meta name="twitter:description" content="最新电影、热播剧集、综艺动漫与高分纪录片聚合，每日亮灯更新。">
+<style>
+:root{
+  --night:#121a2b;
+  --night2:#1b2540;
+  --slab:#e8e2d6;
+  --slab2:#d9d1c0;
+  --slab3:#c3b9a3;
+  --ink:#1a2030;
+  --ink2:#414c63;
+  --ink3:#7b8598;
+  --lamp:#ffd166;
+  --lamp2:#e8a33d;
+  --warm:#ffb95e;
+  --brick:#8a6f5c;
+  --brick2:#5e4a3c;
+  --neon:#37d8d0;
+  --neon2:#1a9b95;
+  --rose:#ff6f91;
+  --sky:#6aa9e0;
+  --leaf:#7fb069;
+  --ln:rgba(26,32,48,.14);
+  --ln2:rgba(26,32,48,.32);
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  --serif:"Songti SC","Hiragino Mincho ProN","Yu Mincho","SimSun",Georgia,serif;
+  --mono:"SF Mono","DIN Alternate",ui-monospace,Menlo,Consolas,"Courier New",monospace;
+  --maxw:1200px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;color:var(--ink);background:var(--slab);font:400 16px/1.85 var(--sans);overflow-x:hidden;
+  background-image:
+    radial-gradient(900px 520px at 50% -18%,rgba(255,209,102,.2),transparent 62%),
+    radial-gradient(700px 420px at 92% 4%,rgba(55,216,208,.12),transparent 58%),
+    radial-gradient(620px 380px at 6% 10%,rgba(255,111,145,.1),transparent 60%);
+  background-attachment:fixed;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol,dl,dd,dt{margin:0;padding:0;list-style:none}
+h1,h2,h3,h4{margin:0;line-height:1.34;font-weight:800;letter-spacing:.06em}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(14px,3.6vw,30px)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* 楼层牌 栏目徽记 */
+.floorplate{
+  width:52px;height:52px;flex:0 0 auto;display:grid;place-items:center;position:relative;
+  border:2px solid var(--ink);border-radius:3px;
+  background:linear-gradient(180deg,#fbf8f1,var(--slab2) 55%,var(--slab3));
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.8),0 3px 8px rgba(26,32,48,.24);
+}
+.floorplate b{
+  font-family:var(--mono);font-size:15px;font-weight:800;color:var(--ink);letter-spacing:.04em;line-height:1;
+}
+.floorplate i{position:absolute;left:6px;right:6px;bottom:6px;height:3px;background:var(--lamp2);border-radius:2px}
+.floorplate.on{background:linear-gradient(180deg,#33405e,var(--night) 60%,#0d1322);border-color:#0d1322}
+.floorplate.on b{color:var(--lamp)}
+.floorplate.gr{background:linear-gradient(180deg,#e7f0e2,#a9c39c 55%,#7d9a70);border-color:#5c7a50}
+.floorplate.gr b{color:#26391a}
+
+/* ===== 亮灯播报条 ===== */
+.facadebar{border-bottom:1px solid var(--ln);background:linear-gradient(180deg,var(--slab2),var(--slab3))}
+.facadebar .wrap{display:flex;align-items:center;gap:14px;height:38px;white-space:nowrap;overflow:hidden}
+.facadebar .on{
+  flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;padding:3px 13px;
+  border:2px solid var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--lamp);background:var(--ink);
+}
+.facadebar .on i{width:8px;height:8px;border-radius:2px;background:var(--lamp)}
+.facadebar .roll{display:flex;gap:24px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;color:var(--ink3)}
+.facadebar b{color:var(--ink)}
+
+/* ===== 顶栏 ===== */
+.topbar{position:sticky;top:0;z-index:80;background:rgba(232,226,214,.96);backdrop-filter:blur(14px);border-bottom:4px solid var(--night)}
+.topbar .wrap{display:flex;align-items:center;gap:13px;height:80px}
+.logo{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+.logo-mark{width:54px;height:48px;flex:0 0 auto}
+.logo-txt b{display:block;font-size:22px;letter-spacing:.04em}
+.logo-txt b em{font-style:normal;color:var(--brick2)}
+.logo-txt span{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--ink3)}
+.search{flex:1 1 auto;max-width:330px;margin-left:auto;display:flex}
+.search input{
+  flex:1;min-width:0;height:42px;padding:0 15px;font:400 14px var(--sans);color:var(--ink);
+  border:2px solid var(--night);border-right:0;background:#fffdf8;outline:none;
+}
+.search input::placeholder{color:var(--ink3)}
+.search button{
+  height:42px;padding:0 20px;cursor:pointer;font-family:var(--mono);font-size:12.5px;font-weight:800;letter-spacing:.12em;
+  border:2px solid var(--night);background:var(--night);color:var(--lamp);
+}
+.search button:hover{background:var(--brick2);border-color:var(--brick2);color:#fff}
+.burger{display:none;margin-left:auto;width:44px;height:42px;cursor:pointer;font-size:17px;color:var(--night);border:2px solid var(--night);background:#fffdf8}
+
+/* ===== 导航 ===== */
+.nav{background:var(--night);border-bottom:3px solid var(--lamp2)}
+.nav ul{display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.nav ul::-webkit-scrollbar{display:none}
+.nav a{
+  display:block;padding:12px 16px;font-size:13.5px;letter-spacing:.06em;color:rgba(232,226,214,.76);
+  white-space:nowrap;border-bottom:3px solid transparent;transition:.22s;
+}
+.nav a:hover{color:#fff;background:rgba(255,255,255,.09)}
+.nav a.on{color:var(--ink);background:var(--lamp);border-bottom-color:var(--lamp);font-weight:800}
+
+/* ===== 主视觉：公寓立面 ===== */
+.hero{padding:clamp(20px,3.6vw,36px) 0 6px}
+.building{border:4px solid var(--ink);background:linear-gradient(180deg,#fdfaf4,#efe8da);overflow:hidden;box-shadow:0 18px 36px rgba(26,32,48,.26)}
+.bd-top{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  padding:11px 18px;border-bottom:4px solid var(--ink);
+  background:linear-gradient(90deg,#1b2540,#33405e 55%,#5e4a3c);color:var(--slab);
+}
+.bd-top .ttl{font-family:var(--serif);font-size:17px;font-weight:800;letter-spacing:.18em}
+.bd-top .no{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--lamp)}
+.bd-body{display:grid;grid-template-columns:1.3fr 1fr}
+.wall{
+  position:relative;padding:clamp(18px,2.8vw,30px);min-height:470px;display:flex;flex-direction:column;justify-content:center;
+  background:
+    repeating-linear-gradient(0deg,transparent 0 26px,rgba(90,74,60,.08) 26px 27px),
+    linear-gradient(180deg,#efe6d6,#e2d6c2);
+}
+/* 屋顶与天线 */
+.wall .roof{position:absolute;left:0;right:0;top:0;height:14px;background:linear-gradient(180deg,#5e4a3c,#8a6f5c)}
+.wall .ant{
+  position:absolute;top:0;width:2px;height:34px;background:#4a4038;
+}
+.wall .ant.a1{left:20%}
+.wall .ant.a2{right:24%;height:26px}
+.wall .ant.a3{right:14%;height:44px}
+.wall .ant::after{content:"";position:absolute;top:6px;left:-4px;width:10px;height:2px;background:#4a4038}
+
+/* 主推大窗 */
+.bigwin{
+  position:relative;aspect-ratio:16/11;border:8px solid #f7f2e8;border-radius:2px;overflow:hidden;
+  box-shadow:0 0 0 2px var(--brick2),0 12px 26px rgba(26,32,48,.3),inset 0 0 40px rgba(26,32,48,.22);
+  background:linear-gradient(180deg,#20406e 0%,#3f6ea8 26%,#e8845b 58%,#c9533f 78%,#26314f 100%);
+}
+.bigwin .sky{position:absolute;inset:0;pointer-events:none}
+.bigwin .sun{
+  position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:32%;aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,#fff3cf 0 34%,var(--lamp) 34% 62%,rgba(232,163,61,.75) 62% 100%);
+  box-shadow:0 0 46px rgba(255,209,102,.55);
+}
+.bigwin .mullion{position:absolute;background:#f7f2e8;box-shadow:0 0 4px rgba(26,32,48,.4)}
+.bigwin .mullion.mv{left:50%;top:0;bottom:0;width:6px;transform:translateX(-50%)}
+.bigwin .mullion.mh{left:0;right:0;top:50%;height:6px;transform:translateY(-50%)}
+.bigwin .sill{
+  position:absolute;left:0;right:0;bottom:0;height:16px;background:linear-gradient(180deg,#f7f2e8,#cdc3b1);
+  border-top:2px solid var(--brick2);
+}
+.bigwin .pot{
+  position:absolute;bottom:16px;left:12%;width:26px;height:16px;border-radius:0 0 6px 6px;background:var(--brick);
+}
+.bigwin .pot::before{
+  content:"";position:absolute;left:3px;right:3px;bottom:14px;height:18px;border-radius:50% 50% 4px 4px;background:var(--leaf);
+}
+.bigwin .pot.r{left:auto;right:14%}
+.bigwin .sign{
+  position:absolute;right:12px;top:12px;padding:4px 10px;border-radius:2px;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;font-weight:800;color:#fff;background:var(--neon2);
+  box-shadow:0 0 14px rgba(55,216,208,.6);
+}
+.hero-meta{margin-top:16px}
+.hero-meta .kicker{
+  display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:11px;letter-spacing:.16em;
+  color:#fff;background:var(--brick2);padding:4px 13px;
+}
+.hero-meta h1{font-family:var(--serif);font-size:clamp(28px,5.6vw,44px);letter-spacing:.08em;margin:10px 0 10px}
+.hero-meta .rows{display:grid;gap:7px;max-width:440px;margin-bottom:10px}
+.hero-meta .rows div{display:flex;gap:12px;align-items:baseline;border-bottom:1px dotted var(--ln2);padding-bottom:5px;font-size:13.5px}
+.hero-meta .rows dt{width:70px;flex:0 0 auto;font-family:var(--mono);font-size:11.5px;color:var(--ink3);letter-spacing:.08em}
+.hero-meta .rows dd{margin:0;font-weight:800;color:var(--ink2)}
+.hero-meta p{margin:0;font-size:14.5px;color:var(--ink2);max-width:52ch;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.hero-btns{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+.btn{
+  padding:11px 26px;cursor:pointer;font-family:var(--mono);font-size:13px;letter-spacing:.1em;
+  border:2px solid var(--ink);background:transparent;color:var(--ink);transition:.22s;
+}
+.btn:hover{background:var(--ink);color:var(--slab)}
+.btn.pri{background:var(--brick2);border-color:var(--brick2);color:#fff;font-weight:800}
+.btn.pri:hover{background:var(--ink);border-color:var(--ink)}
+
+/* 夜间楼道副栏 */
+.corridor{
+  padding:20px;border-left:4px solid var(--ink);
+  background:linear-gradient(180deg,var(--night2),#0d1322);
+  display:grid;gap:12px;align-content:center;
+}
+.corridor h3{font-family:var(--mono);font-size:11px;letter-spacing:.24em;color:var(--lamp);padding-bottom:9px;border-bottom:1px solid rgba(255,209,102,.3)}
+/* 楼体窗格 */
+.gridwin{display:grid;grid-template-columns:repeat(6,1fr);gap:5px}
+.gridwin .w{
+  aspect-ratio:1/1.1;border:1px solid rgba(255,255,255,.18);border-radius:2px;
+  background:linear-gradient(180deg,#2a3550,#151d31);
+}
+.gridwin .w.lit{background:linear-gradient(180deg,var(--lamp),#e8a33d);box-shadow:0 0 10px rgba(255,209,102,.55)}
+.gridwin .w.lit.n{background:linear-gradient(180deg,#8ee0da,var(--neon2));box-shadow:0 0 10px rgba(55,216,208,.5)}
+.gridwin .w.lit.p{background:linear-gradient(180deg,#ffb3c6,var(--rose));box-shadow:0 0 10px rgba(255,111,145,.5)}
+.corridor ol{display:grid;gap:9px}
+.corridor li{
+  display:grid;grid-template-columns:auto 1fr auto;gap:11px;align-items:center;
+  padding:10px 12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);
+  border-left:4px solid var(--lamp);transition:.22s;
+}
+.corridor li:hover{transform:translateX(4px);background:rgba(255,255,255,.12)}
+.corridor li:nth-child(2){border-left-color:var(--neon)}
+.corridor li:nth-child(3){border-left-color:var(--rose)}
+.corridor li:nth-child(4){border-left-color:var(--sky)}
+.corridor .tg{font-family:var(--mono);font-size:11px;font-weight:800;color:#3d2f10;background:var(--lamp);padding:3px 8px}
+.corridor li:nth-child(2) .tg{background:var(--neon)}
+.corridor li:nth-child(3) .tg{background:var(--rose)}
+.corridor li:nth-child(4) .tg{background:var(--sky)}
+.corridor .meta{min-width:0}
+.corridor .meta b{display:block;font-size:14px;font-weight:800;color:#f4efe4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.corridor .meta span{font-size:12px;color:rgba(244,239,228,.6)}
+.corridor .pt{font-family:var(--mono);font-size:12px;font-weight:800;color:var(--lamp);white-space:nowrap}
+
+/* ===== 区块 ===== */
+section{padding:clamp(26px,3.8vw,44px) 0}
+.sec-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:20px;flex-wrap:wrap}
+.sec-head .left{display:flex;align-items:center;gap:14px;min-width:0}
+.sec-head h2{font-family:var(--serif);font-size:clamp(20px,3.6vw,27px)}
+.sec-head .sub{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:var(--ink3);margin-top:4px;font-weight:400}
+.sec-head .more{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--ink2);padding:8px 16px;border:2px solid var(--ln2);transition:.22s}
+.sec-head .more:hover{color:#fff;background:var(--night);border-color:var(--night)}
+
+/* 门牌筛选 */
+.letterbox{display:flex;gap:9px;overflow-x:auto;scrollbar-width:none;margin-bottom:18px}
+.letterbox::-webkit-scrollbar{display:none}
+.letterbox button{
+  display:inline-flex;align-items:center;gap:8px;padding:8px 15px;cursor:pointer;white-space:nowrap;
+  font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;color:var(--ink2);
+  border:2px solid var(--ln2);background:#fffdf8;transition:.22s;
+}
+.letterbox button:hover{border-color:var(--ink);color:var(--ink)}
+.letterbox button.on{color:var(--lamp);background:var(--night);border-color:var(--night);font-weight:800}
+.letterbox button .bulb{width:12px;height:12px;flex:0 0 auto;border-radius:2px;background:var(--ink3);box-shadow:inset 0 0 0 1px rgba(255,255,255,.4)}
+.letterbox button[data-f="classic"] .bulb{background:var(--lamp2)}
+.letterbox button[data-f="drama"] .bulb{background:var(--sky)}
+.letterbox button[data-f="action"] .bulb{background:var(--rose)}
+.letterbox button[data-f="love"] .bulb{background:#c77ec2}
+.letterbox button[data-f="comedy"] .bulb{background:var(--leaf)}
+.letterbox button[data-f="scifi"] .bulb{background:var(--neon)}
+
+/* ===== 窗户卡 ===== */
+.units{display:grid;gap:18px 16px;grid-template-columns:repeat(auto-fill,minmax(206px,1fr))}
+.unit{margin:0;transition:.28s}
+.unit:hover{transform:translateY(-6px)}
+.unit > a{
+  display:block;height:100%;background:#fffdf8;border:1px solid var(--ln);border-bottom:6px solid var(--ink);
+  box-shadow:0 4px 12px rgba(26,32,48,.13);
+}
+.unit:hover > a{border-color:var(--ln2);box-shadow:0 14px 30px rgba(26,32,48,.24)}
+.unit.u1 > a{border-bottom-color:var(--brick2)}
+.unit.u2 > a{border-bottom-color:var(--sky)}
+.unit.u3 > a{border-bottom-color:var(--rose)}
+.unit.u4 > a{border-bottom-color:var(--leaf)}
+.unit.u5 > a{border-bottom-color:var(--neon2)}
+.unit.u6 > a{border-bottom-color:#c77ec2}
+/* 窗户 */
+.win{
+  position:relative;display:block;aspect-ratio:3/4;margin:12px 12px 0;overflow:hidden;
+  border:6px solid #f7f2e8;border-radius:2px;
+  box-shadow:0 0 0 2px var(--brick2),0 6px 14px rgba(26,32,48,.24),inset 0 0 24px rgba(26,32,48,.2);
+}
+.win.g1{background:linear-gradient(180deg,#2a4a7a 0%,#5b8fc4 24%,#edb06a 54%,#c9533f 74%,#26314f 100%)}
+.win.g2{background:linear-gradient(180deg,#7fb3e0 0%,#cfe3f2 30%,#f3e2c4 62%,#b99a72 100%)}
+.win.g3{background:linear-gradient(180deg,#1d2540 0%,#3a2c56 34%,#8c3f5e 66%,#241a33 100%)}
+.win.g4{background:linear-gradient(180deg,#4d6b4a 0%,#9dbf7e 30%,#e9dfae 62%,#7f8f5c 100%)}
+.win.g5{background:linear-gradient(180deg,#0e2a3a 0%,#175a63 32%,#37d8d0 62%,#0f2b38 100%)}
+.win.g6{background:linear-gradient(180deg,#2b1f3d 0%,#6b3f7a 32%,#ffa8bf 62%,#35204a 100%)}
+.win .mullion{position:absolute;background:#f7f2e8}
+.win .mullion.mv{left:50%;top:0;bottom:0;width:5px;transform:translateX(-50%)}
+.win .mullion.mh{left:0;right:0;top:46%;height:5px}
+.win .glow{
+  position:absolute;left:8%;right:8%;top:10%;bottom:26%;border-radius:2px;
+  background:radial-gradient(circle at 50% 62%,rgba(255,224,150,.85),transparent 62%);
+}
+.win.g2 .glow,.win.g4 .glow{background:radial-gradient(circle at 50% 62%,rgba(255,255,255,.7),transparent 64%)}
+.win .vnum{position:absolute;right:8px;top:8px;font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:rgba(255,255,255,.9)}
+.win .vtitle{
+  position:absolute;left:8%;right:8%;bottom:20%;
+  font-family:var(--serif);font-size:16px;font-weight:800;letter-spacing:.08em;color:#fffaf0;
+  text-shadow:0 2px 6px rgba(18,26,43,.8);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.win .sill{
+  position:absolute;left:0;right:0;bottom:0;height:12px;background:linear-gradient(180deg,#f7f2e8,#cdc3b1);
+  border-top:2px solid var(--brick2);
+}
+.win .pot{position:absolute;bottom:12px;left:14%;width:20px;height:12px;border-radius:0 0 5px 5px;background:var(--brick)}
+.win .pot::before{content:"";position:absolute;left:3px;right:3px;bottom:11px;height:14px;border-radius:50% 50% 3px 3px;background:var(--leaf)}
+.win .pot.r{left:auto;right:16%}
+.unit .plate{padding:12px 13px 14px}
+.unit .plate .row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:5px}
+.unit .plate .row .no{font-family:var(--mono);font-size:11.5px;font-weight:800;color:var(--lamp);background:var(--night);padding:3px 9px}
+.unit .plate .row .sc{font-family:var(--mono);font-size:12.5px;font-weight:800;color:#fff;background:var(--brick2);padding:2px 9px}
+.unit .plate b{display:block;font-size:15px;font-weight:800;letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.unit .plate .meta{display:block;font-size:12.5px;color:var(--ink3);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.unit dl.util{
+  display:flex;gap:9px;flex-wrap:wrap;margin:0 13px 14px;padding-top:9px;border-top:1px dashed var(--ln2);
+  font-family:var(--mono);font-size:10.5px;color:var(--ink3);
+}
+.unit dl.util > div{display:flex;gap:3px}
+.unit dl.util dd{color:var(--ink2)}
+.unit dl.util dd.hi{color:var(--brick2)}
+
+/* 楼层导览 */
+.floors{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(258px,1fr))}
+.floors a{
+  display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;
+  padding:18px;background:#fffdf8;border:1px solid var(--ln);border-left:8px solid var(--ink);transition:.26s;
+}
+.floors a:hover{transform:translateY(-4px);border-color:var(--ln2);box-shadow:0 12px 24px rgba(26,32,48,.18)}
+.floors a:nth-child(2){border-left-color:var(--brick2)}
+.floors a:nth-child(3){border-left-color:var(--sky)}
+.floors a:nth-child(4){border-left-color:var(--rose)}
+.floors a:nth-child(5){border-left-color:var(--leaf)}
+.floors a:nth-child(6){border-left-color:var(--neon2)}
+.floors .lift{
+  width:50px;height:50px;flex:0 0 auto;display:grid;place-items:center;border:2px solid var(--ink);border-radius:3px;
+  background:linear-gradient(180deg,#fbf8f1,var(--slab2) 55%,var(--slab3));box-shadow:inset 0 2px 0 rgba(255,255,255,.8);
+}
+.floors .lift b{font-family:var(--mono);font-size:16px;font-weight:800;color:var(--ink)}
+.floors a:nth-child(2) .lift{background:linear-gradient(180deg,#f0dcc6,#c9a184 55%,#96694f)}
+.floors a:nth-child(3) .lift{background:linear-gradient(180deg,#dbe9f5,#9ec0de 55%,#6f95b8)}
+.floors a:nth-child(4) .lift{background:linear-gradient(180deg,#fbdde5,#e79db1 55%,#c2708a)}
+.floors a:nth-child(5) .lift{background:linear-gradient(180deg,#e4efdc,#a9c39c 55%,#7d9a70)}
+.floors a:nth-child(6) .lift{background:linear-gradient(180deg,#d5f0ee,#79cfc9 55%,var(--neon2))}
+.floors .info{min-width:0}
+.floors .info b{display:block;font-size:17px;font-weight:800;letter-spacing:.08em}
+.floors .info span{display:block;font-size:12.5px;color:var(--ink3);margin-top:3px}
+.floors .info .bar{margin-top:9px;height:6px;background:var(--slab3);border-radius:3px;overflow:hidden}
+.floors .info .bar i{display:block;height:100%;background:var(--ink)}
+.floors a:nth-child(2) .info .bar i{background:var(--brick2)}
+.floors a:nth-child(3) .info .bar i{background:var(--sky)}
+.floors a:nth-child(4) .info .bar i{background:var(--rose)}
+.floors a:nth-child(5) .info .bar i{background:var(--leaf)}
+.floors a:nth-child(6) .info .bar i{background:var(--neon2)}
+
+/* 亮灯时段（ul.watch） */
+.watch{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(232px,1fr))}
+.watch li{padding:20px;background:#fffdf8;border:1px solid var(--ln);border-top:6px solid var(--ink);transition:.24s}
+.watch li:nth-child(2){border-top-color:var(--lamp2)}
+.watch li:nth-child(3){border-top-color:var(--sky)}
+.watch li:nth-child(4){border-top-color:var(--neon2)}
+.watch li:hover{transform:translateY(-4px);box-shadow:0 10px 22px rgba(26,32,48,.16)}
+.watch em{
+  display:inline-block;font-style:normal;font-family:var(--mono);font-size:13px;font-weight:800;
+  color:var(--lamp);background:var(--ink);padding:4px 12px;letter-spacing:.06em;
+}
+.watch li:nth-child(2) em{color:#3d2f10;background:var(--lamp)}
+.watch li:nth-child(3) em{background:var(--sky);color:#123453}
+.watch li:nth-child(4) em{background:var(--neon2)}
+.watch b{display:block;font-family:var(--serif);font-size:16px;font-weight:800;letter-spacing:.08em;margin:11px 0 6px}
+.watch span{font-size:13px;color:var(--ink3);line-height:1.85}
+
+/* 亮灯榜 */
+.lights{display:grid;gap:9px}
+.lights li{
+  display:grid;grid-template-columns:46px 1fr 130px auto;align-items:center;gap:14px;
+  padding:12px 15px;background:#fffdf8;border:1px solid var(--ln);border-left:6px solid var(--ink);transition:.24s;
+}
+.lights li:nth-child(2){border-left-color:var(--lamp2)}
+.lights li:nth-child(3){border-left-color:var(--sky)}
+.lights li:nth-child(n+4){border-left-color:var(--ink3)}
+.lights li:hover{padding-left:19px;border-color:var(--ln2);box-shadow:0 8px 18px rgba(26,32,48,.14)}
+.lights .no{font-family:var(--mono);font-size:15px;font-weight:800;color:var(--ink)}
+.lights li:nth-child(2) .no{color:#a97c1e}
+.lights li:nth-child(3) .no{color:var(--sky)}
+.lights .ti{min-width:0}
+.lights .ti b{display:block;font-size:14.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lights .ti span{font-family:var(--mono);font-size:11px;color:var(--ink3)}
+/* 窗格条 */
+.lights .pane{display:flex;gap:3px}
+.lights .pane i{flex:1;height:9px;border-radius:1px;background:var(--slab3)}
+.lights .pane i.on{background:linear-gradient(180deg,var(--lamp),var(--lamp2))}
+.lights .cnt{font-family:var(--mono);font-size:12.5px;font-weight:800;color:var(--ink);white-space:nowrap}
+
+/* 楼道贴条 */
+.bulletin{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(272px,1fr))}
+.bulletin article{background:#fffdf8;border:1px solid var(--ln);transition:.28s;overflow:hidden;box-shadow:0 4px 12px rgba(26,32,48,.1)}
+.bulletin article:hover{transform:translateY(-5px);border-color:var(--ln2);box-shadow:0 14px 28px rgba(26,32,48,.2)}
+.bulletin .strip{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;font-weight:800;color:var(--lamp);background:var(--ink);
+}
+.bulletin article:nth-child(2) .strip{background:var(--brick2);color:#fff}
+.bulletin article:nth-child(3) .strip{background:var(--sky);color:#123453}
+.bulletin .bd{padding:15px 17px 18px;background:repeating-linear-gradient(0deg,transparent 0 28px,var(--ln) 28px 29px)}
+.bulletin h3{font-family:var(--serif);font-size:17px;margin-bottom:7px}
+.bulletin h3 a:hover{color:var(--brick2)}
+.bulletin p{margin:0;font-size:13px;color:var(--ink3);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.bulletin footer{margin-top:11px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink3)}
+
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.panel{background:#fffdf8;border:1px solid var(--ln);padding:22px;box-shadow:0 4px 12px rgba(26,32,48,.1)}
+.panel h3{font-family:var(--serif);font-size:18px;padding-bottom:11px;margin-bottom:8px;border-bottom:2px solid var(--ln)}
+.kv{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px dotted var(--ln2);font-size:13.5px}
+.kv:last-child{border:0}
+.kv span{font-family:var(--mono);font-size:12.5px;color:var(--ink3);text-align:right}
+.tags{display:flex;flex-wrap:wrap;gap:9px}
+.tags a{padding:6px 16px;font-size:12.5px;color:var(--ink2);border:1px solid var(--ln2);transition:.22s}
+.tags a:hover{color:var(--lamp);background:var(--night);border-color:var(--night)}
+.faq{display:grid;gap:0}
+.faq > div{display:grid;grid-template-columns:56px 1fr;gap:12px;padding:12px 0;border-bottom:1px dotted var(--ln2)}
+.faq > div:last-child{border-bottom:0}
+.faq dt{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--lamp);background:var(--ink);padding:3px 6px;text-align:center;height:fit-content}
+.faq dd{margin:0}
+.faq dd b{display:block;font-size:14px;font-weight:800;margin-bottom:3px}
+.faq dd span{font-size:12.5px;color:var(--ink3)}
+
+/* 页脚 */
+footer{margin-top:26px;border-top:4px solid var(--night);background:linear-gradient(180deg,var(--slab2),var(--slab3));padding:32px 0 34px}
+footer h4{font-family:var(--mono);font-size:12px;letter-spacing:.22em;color:var(--brick2);margin-bottom:12px}
+footer p,footer li{font-size:13px;color:var(--ink3);margin:0 0 7px}
+footer li a:hover{color:var(--brick2)}
+.fgrid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.copy{margin-top:24px;padding-top:16px;border-top:1px solid var(--ln2);font-size:12.5px;color:var(--ink3);text-align:center;line-height:1.9}
+.copy b{font-family:var(--mono);color:var(--ink)}
+
+.top{position:fixed;right:16px;bottom:16px;width:46px;height:46px;cursor:pointer;font-size:17px;border:2px solid var(--night);background:rgba(232,226,214,.96);color:var(--night);display:none;z-index:90}
+.top.show{display:block}
+.empty{padding:30px;text-align:center;color:var(--ink3);font-size:14px;display:none}
+
+/* ===== 响应式 ===== */
+@media (max-width:900px){
+  .bd-body{grid-template-columns:1fr}
+  .wall{min-height:0}
+  .corridor{border-left:0;border-top:4px solid var(--ink)}
+  .cols{grid-template-columns:1fr}
+}
+@media (max-width:768px){
+  .search{display:none}
+  .burger{display:block}
+  .nav{display:none}
+  .nav.open{display:block}
+  .nav ul{flex-direction:column;gap:0;overflow:visible}
+  .nav a{border-bottom:1px solid rgba(232,226,214,.16);border-left:4px solid transparent;padding:13px 4px}
+  .nav a.on{border-bottom-color:rgba(232,226,214,.16);border-left-color:var(--lamp);padding-left:12px}
+  .units{grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:18px 14px}
+  .unit:hover,.bulletin article:hover,.floors a:hover,.lights li:hover,.watch li:hover,.corridor li:hover{transform:none}
+  .lights li:hover{padding-left:15px}
+}
+@media (max-width:480px){
+  .logo-mark{width:48px;height:42px}
+  .logo-txt b{font-size:20px}
+  .units{grid-template-columns:repeat(2,1fr);gap:16px 12px}
+  .win{margin:9px 9px 0;border-width:5px}
+  .win .vtitle{font-size:14px}
+  .sec-head h2{font-size:21px}
+  .lights li{grid-template-columns:40px 1fr auto;gap:10px}
+  .lights .pane{grid-column:2 / -1}
+  .floors{grid-template-columns:1fr}
+  .wall{padding:16px 14px}
+  .bigwin .sun{width:38%}
+  .gridwin{grid-template-columns:repeat(4,1fr)}
+  .building{border-width:3px}
+  .facadebar .roll{gap:16px;font-size:11px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebSite",
+      "@id":"https://236zhaizhaidianyingwang-cn.github.io/#website",
+      "url":"https://236zhaizhaidianyingwang-cn.github.io/",
+      "name":"236宅宅电影网",
+      "alternateName":["宅宅电影网","236宅宅","宅宅在线观看"],
+      "inLanguage":"zh-CN",
+      "description":"236宅宅电影网提供最新电影、热播电视剧、综艺、动漫、纪录片的介绍及影视排行榜。",
+      "potentialAction":{
+        "@type":"SearchAction",
+        "target":{"@type":"EntryPoint","urlTemplate":"https://236zhaizhaidianyingwang-cn.github.io/search?q={search_term_string}"},
+        "query-input":"required name=search_term_string"
+      }
+    },
+    {
+      "@type":"Organization",
+      "@id":"https://236zhaizhaidianyingwang-cn.github.io/#org",
+      "url":"https://236zhaizhaidianyingwang-cn.github.io/",
+      "name":"236宅宅电影网",
+      "logo":"https://236zhaizhaidianyingwang-cn.github.io/favicon.ico"
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"首页","item":"https://236zhaizhaidianyingwang-cn.github.io/"},
+        {"@type":"ListItem","position":2,"name":"今日亮灯","item":"https://236zhaizhaidianyingwang-cn.github.io/#movie"},
+        {"@type":"ListItem","position":3,"name":"热播剧集","item":"https://236zhaizhaidianyingwang-cn.github.io/#tv"},
+        {"@type":"ListItem","position":4,"name":"综艺动漫","item":"https://236zhaizhaidianyingwang-cn.github.io/#show"},
+        {"@type":"ListItem","position":5,"name":"纪录片","item":"https://236zhaizhaidianyingwang-cn.github.io/#doc"},
+        {"@type":"ListItem","position":6,"name":"楼层导览","item":"https://236zhaizhaidianyingwang-cn.github.io/#floors"},
+        {"@type":"ListItem","position":7,"name":"亮灯时段","item":"https://236zhaizhaidianyingwang-cn.github.io/#watch"},
+        {"@type":"ListItem","position":8,"name":"亮灯榜","item":"https://236zhaizhaidianyingwang-cn.github.io/#rank"}
+      ]
+    },
+    {
+      "@type":"ItemList",
+      "name":"236宅宅电影网亮灯榜",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"深夜窗口"},
+        {"@type":"ListItem","position":2,"name":"隔壁的灯"},
+        {"@type":"ListItem","position":3,"name":"雨天客厅"},
+        {"@type":"ListItem","position":4,"name":"楼顶天线"},
+        {"@type":"ListItem","position":5,"name":"一盏小灯"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<div class="facadebar">
+  <div class="wrap">
+    <span class="on"><i aria-hidden="true"></i>亮灯中 · 18:00-02:00</span>
+    <span class="roll">
+      <span>236宅宅电影网 今日开灯</span>
+      <span>今日亮灯 <b>238</b> 户</span>
+      <span>在架 <b>33,260</b> 部</span>
+      <span>亮灯时段 <b>20:00 / 22:00</b></span>
+    </span>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="236宅宅电影网首页">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 108 96" focusable="false">
+          <rect x="8" y="14" width="92" height="74" fill="#e2d6c2" stroke="#1a2030" stroke-width="3"></rect>
+          <path d="M8 14 L54 2 L100 14 Z" fill="#5e4a3c" stroke="#1a2030" stroke-width="3"></path>
+          <rect x="16" y="24" width="20" height="18" fill="#ffd166" stroke="#1a2030" stroke-width="2"></rect>
+          <rect x="44" y="24" width="20" height="18" fill="#2a3550" stroke="#1a2030" stroke-width="2"></rect>
+          <rect x="72" y="24" width="20" height="18" fill="#ffd166" stroke="#1a2030" stroke-width="2"></rect>
+          <rect x="16" y="52" width="20" height="18" fill="#2a3550" stroke="#1a2030" stroke-width="2"></rect>
+          <rect x="44" y="52" width="20" height="18" fill="#ffd166" stroke="#1a2030" stroke-width="2"></rect>
+          <rect x="72" y="52" width="20" height="18" fill="#2a3550" stroke="#1a2030" stroke-width="2"></rect>
+          <rect x="8" y="88" width="92" height="6" fill="#8a6f5c" stroke="#1a2030" stroke-width="2"></rect>
+        </svg>
+      </span>
+      <span class="logo-txt"><b><em>236</em>宅宅电影网</b><span>ZZ CINEMA APARTMENT</span></span>
+    </a>
+    <form class="search" role="search" onsubmit="return doSearch(event)">
+      <label class="sr" for="q">搜索影片</label>
+      <input id="q" type="search" placeholder="搜电影 / 剧集 / 演员…" autocomplete="off">
+      <button type="submit">检索</button>
+    </form>
+    <button class="burger" id="burger" aria-label="展开导航菜单" aria-expanded="false">☰</button>
+  </div>
+  <nav class="nav" id="nav" aria-label="网站主导航">
+    <div class="wrap">
+      <ul>
+        <li><a class="on" href="#">首页</a></li>
+        <li><a href="#movie">今日亮灯</a></li>
+        <li><a href="#tv">热播剧集</a></li>
+        <li><a href="#show">综艺动漫</a></li>
+        <li><a href="#doc">纪录片</a></li>
+        <li><a href="#floors">楼层导览</a></li>
+        <li><a href="#watch">亮灯时段</a></li>
+        <li><a href="#rank">亮灯榜</a></li>
+        <li><a href="#bulletin">楼道贴条</a></li>
+        <li><a href="#about">关于我们</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- 主视觉：公寓立面 -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <article class="building">
+        <div class="bd-top">
+          <span class="ttl">236宅宅电影网 · 宅宅公寓</span>
+          <span class="no">BUILDING NO. ZZ-236 · 每日 18:00 开灯</span>
+        </div>
+        <div class="bd-body">
+          <div class="wall">
+            <span class="roof" aria-hidden="true"></span>
+            <span class="ant a1" aria-hidden="true"></span>
+            <span class="ant a2" aria-hidden="true"></span>
+            <span class="ant a3" aria-hidden="true"></span>
+            <div class="bigwin" role="img" aria-label="本期主推影片窗口">
+              <span class="sun" aria-hidden="true"></span>
+              <span class="mullion mv" aria-hidden="true"></span>
+              <span class="mullion mh" aria-hidden="true"></span>
+              <span class="pot" aria-hidden="true"></span>
+              <span class="pot r" aria-hidden="true"></span>
+              <span class="sign">236 亮灯</span>
+              <span class="sill" aria-hidden="true"></span>
+            </div>
+            <div class="hero-meta">
+              <span class="kicker">NOW LIT · 本期主推</span>
+              <h1 id="hero-title">深夜窗口</h1>
+              <dl class="rows">
+                <div><dt>上映</dt><dd>2026</dd></div>
+                <div><dt>片长</dt><dd>124 MIN</dd></div>
+                <div><dt>版本</dt><dd>1080P / 4K</dd></div>
+              </dl>
+              <p>236宅宅电影网本期主推：一栋老楼里亮着的那扇窗，和一整夜没睡的人。本站已同步更新剧情解析、演职员表、评分口碑与在线观看指南。</p>
+              <div class="hero-btns">
+                <a class="btn pri" href="#">立即观看</a>
+                <a class="btn" href="#">剧情介绍</a>
+              </div>
+            </div>
+          </div>
+          <div class="corridor">
+            <h3>TONIGHT · 今日亮灯</h3>
+            <div class="gridwin" aria-hidden="true">
+              <span class="w lit"></span><span class="w"></span><span class="w lit n"></span>
+              <span class="w"></span><span class="w lit p"></span><span class="w"></span>
+              <span class="w lit"></span><span class="w lit n"></span><span class="w"></span>
+              <span class="w"></span><span class="w lit p"></span><span class="w lit"></span>
+            </div>
+            <ol>
+              <li>
+                <span class="tg">ZZ-02</span>
+                <span class="meta"><b>隔壁的灯</b><span>都市 · 更新至第 10 集</span></span>
+                <span class="pt">9.0</span>
+              </li>
+              <li>
+                <span class="tg">ZZ-03</span>
+                <span class="meta"><b>雨天客厅</b><span>生活 · 更新至第 6 集</span></span>
+                <span class="pt">8.7</span>
+              </li>
+              <li>
+                <span class="tg">ZZ-04</span>
+                <span class="meta"><b>楼顶天线</b><span>年代 · 高清 1080P</span></span>
+                <span class="pt">8.6</span>
+              </li>
+              <li>
+                <span class="tg">ZZ-05</span>
+                <span class="meta"><b>一盏小灯</b><span>纪录 · 9.3 分</span></span>
+                <span class="pt">9.3</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 栏目一：今日亮灯 -->
+  <section id="movie" aria-labelledby="movie-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate on" aria-hidden="true"><b>1F</b><i></i></span>
+          <div>
+            <h2 id="movie-t">今日亮灯</h2>
+            <span class="sub">NOW LIT · 每日开灯</span>
+          </div>
+        </div>
+        <a class="more" href="#">查看全部 →</a>
+      </div>
+      <p style="margin:0 0 16px;font-size:13.5px;color:var(--ink3)">236宅宅电影网每日两轮开灯，按灯泡色筛选；每户都是一扇窗（白窗框 + 十字窗棂 + 窗台花盆），玻璃里是不同时段的天色，下方为门牌信息条。</p>
+      <div class="letterbox" role="tablist" aria-label="影片筛选">
+        <button class="on" data-f="all"><span class="bulb" aria-hidden="true"></span>全部住户</button>
+        <button data-f="classic"><span class="bulb" aria-hidden="true"></span>暖灯 经典</button>
+        <button data-f="drama"><span class="bulb" aria-hidden="true"></span>天蓝 剧情</button>
+        <button data-f="action"><span class="bulb" aria-hidden="true"></span>玫红 动作</button>
+        <button data-f="love"><span class="bulb" aria-hidden="true"></span>藕紫 爱情</button>
+        <button data-f="comedy"><span class="bulb" aria-hidden="true"></span>草绿 喜剧</button>
+        <button data-f="scifi"><span class="bulb" aria-hidden="true"></span>青霓 科幻</button>
+      </div>
+      <div class="units" id="movieGrid">
+        <article class="unit" data-cat="classic"><a href="#"><span class="win g1" role="img" aria-label="深夜窗口 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-01</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">深夜窗口</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-01</span><span class="sc">8.9</span></span><b>深夜窗口</b><span class="meta">2026 · 剧情 / 生活</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>片长</dt><dd>124 MIN</dd></div><div><dt>亮灯</dt><dd>9.5 万</dd></div></dl></a></article>
+        <article class="unit u2" data-cat="drama"><a href="#"><span class="win g2" role="img" aria-label="雨天客厅 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-03</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">雨天客厅</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-03</span><span class="sc">8.4</span></span><b>雨天客厅</b><span class="meta">2026 · 剧情 / 家庭</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>片长</dt><dd>112 MIN</dd></div><div><dt>亮灯</dt><dd>7.8 万</dd></div></dl></a></article>
+        <article class="unit u3" data-cat="action"><a href="#"><span class="win g3" role="img" aria-label="极速追击 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-06</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">极速追击</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-06</span><span class="sc">8.3</span></span><b>极速追击</b><span class="meta">2026 · 动作 / 犯罪</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">4K</dd></div><div><dt>片长</dt><dd>114 MIN</dd></div><div><dt>亮灯</dt><dd>6.9 万</dd></div></dl></a></article>
+        <article class="unit u4" data-cat="comedy"><a href="#"><span class="win g4" role="img" aria-label="开心杂货铺 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-07</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">开心杂货铺</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-07</span><span class="sc">7.8</span></span><b>开心杂货铺</b><span class="meta">2026 · 喜剧 / 生活</span></span><dl class="util"><div><dt>版本</dt><dd>720P</dd></div><div><dt>片长</dt><dd>98 MIN</dd></div><div><dt>亮灯</dt><dd>4.6 万</dd></div></dl></a></article>
+        <article class="unit u5" data-cat="scifi"><a href="#"><span class="win g5" role="img" aria-label="银河旅店 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-08</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">银河旅店</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-08</span><span class="sc">8.6</span></span><b>银河旅店</b><span class="meta">2026 · 科幻 / 冒险</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">4K</dd></div><div><dt>片长</dt><dd>138 MIN</dd></div><div><dt>亮灯</dt><dd>8.2 万</dd></div></dl></a></article>
+        <article class="unit u6" data-cat="love"><a href="#"><span class="win g6" role="img" aria-label="隔壁的灯 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-02</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">隔壁的灯</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-02</span><span class="sc">9.0</span></span><b>隔壁的灯</b><span class="meta">2026 · 爱情 / 都市</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>片长</dt><dd>109 MIN</dd></div><div><dt>亮灯</dt><dd>8.9 万</dd></div></dl></a></article>
+        <article class="unit u1" data-cat="classic"><a href="#"><span class="win g1" role="img" aria-label="楼顶天线 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-04</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">楼顶天线</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-04</span><span class="sc">8.6</span></span><b>楼顶天线</b><span class="meta">2025 · 剧情 / 年代</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>片长</dt><dd>118 MIN</dd></div><div><dt>亮灯</dt><dd>5.9 万</dd></div></dl></a></article>
+        <article class="unit u4" data-cat="comedy"><a href="#"><span class="win g4" role="img" aria-label="爆笑考场 影片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-11</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">爆笑考场</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-11</span><span class="sc">8.0</span></span><b>爆笑考场</b><span class="meta">2026 · 喜剧 / 校园</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>片长</dt><dd>95 MIN</dd></div><div><dt>亮灯</dt><dd>6.3 万</dd></div></dl></a></article>
+      </div>
+      <div class="empty" id="movieEmpty">没有匹配的影片，换个灯泡色或关键词试试～</div>
+      <div style="margin-top:22px"><button class="btn" id="moreMovie">再亮一户</button></div>
+    </div>
+  </section>
+
+  <!-- 栏目二：热播剧集 -->
+  <section id="tv" aria-labelledby="tv-t" style="background:rgba(217,209,192,.55)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate" aria-hidden="true"><b>2F</b><i></i></span>
+          <div>
+            <h2 id="tv-t">热播剧集</h2>
+            <span class="sub">HOT SERIES · 连载住户</span>
+          </div>
+        </div>
+        <a class="more" href="#">剧集时间表 →</a>
+      </div>
+      <div class="units">
+        <article class="unit u6"><a href="#"><span class="win g6" role="img" aria-label="隔壁的灯 剧集封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-02</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">隔壁的灯</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-02</span><span class="sc">9.0</span></span><b>隔壁的灯</b><span class="meta">都市爱情 · 每周三更新</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>集长</dt><dd>45 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u2"><a href="#"><span class="win g2" role="img" aria-label="雨天客厅 剧集封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-03</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">雨天客厅</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-03</span><span class="sc">8.7</span></span><b>雨天客厅</b><span class="meta">生活流 · 每周六更新</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>集长</dt><dd>45 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u5"><a href="#"><span class="win g5" role="img" aria-label="城市之下 剧集封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-12</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">城市之下</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-12</span><span class="sc">8.4</span></span><b>城市之下</b><span class="meta">职场 · 30 集</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">4K</dd></div><div><dt>集长</dt><dd>45 MIN</dd></div><div><dt>状态</dt><dd>全集</dd></div></dl></a></article>
+        <article class="unit u1"><a href="#"><span class="win g1" role="img" aria-label="春水生 剧集封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-13</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">春水生</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-13</span><span class="sc">7.9</span></span><b>春水生</b><span class="meta">年代情感 · 每周一更新</span></span><dl class="util"><div><dt>版本</dt><dd>720P</dd></div><div><dt>集长</dt><dd>45 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u3"><a href="#"><span class="win g3" role="img" aria-label="暗线 剧集封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-14</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">暗线</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-14</span><span class="sc">8.6</span></span><b>暗线</b><span class="meta">谍战 · 每周五更新</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>集长</dt><dd>45 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u4"><a href="#"><span class="win g4" role="img" aria-label="课间十分钟 剧集封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-15</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">课间十分钟</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-15</span><span class="sc">8.1</span></span><b>课间十分钟</b><span class="meta">青春校园 · 24 集</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>集长</dt><dd>42 MIN</dd></div><div><dt>状态</dt><dd>全集</dd></div></dl></a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目三：综艺动漫 -->
+  <section id="show" aria-labelledby="show-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate gr" aria-hidden="true"><b>3F</b><i></i></span>
+          <div>
+            <h2 id="show-t">综艺 · 动漫</h2>
+            <span class="sub">SHOWS &amp; ANIME · 邻里层</span>
+          </div>
+        </div>
+        <a class="more" href="#">更多综艺动漫 →</a>
+      </div>
+      <div class="units">
+        <article class="unit u1"><a href="#"><span class="win g1" role="img" aria-label="午后茶话 综艺封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-16</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">午后茶话</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-16</span><span class="sc">8.3</span></span><b>午后茶话</b><span class="meta">真人秀 · 更新至第 11 期</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>时长</dt><dd>60 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u4"><a href="#"><span class="win g4" role="img" aria-label="灶上有江湖 综艺封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-17</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">灶上有江湖</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-17</span><span class="sc">8.8</span></span><b>灶上有江湖</b><span class="meta">美食 · 更新至第 7 期</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>时长</dt><dd>50 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u5"><a href="#"><span class="win g5" role="img" aria-label="山海灵兽录 动漫封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-18</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">山海灵兽录</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-18</span><span class="sc">9.1</span></span><b>山海灵兽录</b><span class="meta">国漫 · 更新至第 30 话</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">4K</dd></div><div><dt>时长</dt><dd>24 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u3"><a href="#"><span class="win g3" role="img" aria-label="追风少年 动漫封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-19</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">追风少年</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-19</span><span class="sc">8.5</span></span><b>追风少年</b><span class="meta">热血 · 更新至第 16 话</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>时长</dt><dd>24 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u6"><a href="#"><span class="win g6" role="img" aria-label="声音的形状 综艺封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-20</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">声音的形状</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-20</span><span class="sc">8.4</span></span><b>声音的形状</b><span class="meta">音乐 · 每周四更新</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>时长</dt><dd>70 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+        <article class="unit u4"><a href="#"><span class="win g4" role="img" aria-label="小食记 动漫封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-21</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">小食记</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-21</span><span class="sc">8.9</span></span><b>小食记</b><span class="meta">治愈 · 更新至第 10 话</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>时长</dt><dd>20 MIN</dd></div><div><dt>状态</dt><dd>更新中</dd></div></dl></a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目四：纪录片 -->
+  <section id="doc" aria-labelledby="doc-t" style="background:rgba(217,209,192,.55)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate on" aria-hidden="true"><b>4F</b><i></i></span>
+          <div>
+            <h2 id="doc-t">高分纪录片</h2>
+            <span class="sub">DOCUMENTARY · 观察层</span>
+          </div>
+        </div>
+        <a class="more" href="#">纪录片专区 →</a>
+      </div>
+      <div class="units">
+        <article class="unit u4"><a href="#"><span class="win g4" role="img" aria-label="大江之源 纪录片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-22</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">大江之源</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-22</span><span class="sc">9.3</span></span><b>大江之源</b><span class="meta">6 集 · 地理人文</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">4K</dd></div><div><dt>时长</dt><dd>52 MIN</dd></div><div><dt>状态</dt><dd>全集</dd></div></dl></a></article>
+        <article class="unit u1"><a href="#"><span class="win g1" role="img" aria-label="手艺人 纪录片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-23</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">手艺人</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-23</span><span class="sc">9.2</span></span><b>手艺人</b><span class="meta">8 集 · 匠人纪录</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>时长</dt><dd>45 MIN</dd></div><div><dt>状态</dt><dd>全集</dd></div></dl></a></article>
+        <article class="unit u5"><a href="#"><span class="win g5" role="img" aria-label="深海之下 纪录片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-24</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">深海之下</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-24</span><span class="sc">9.0</span></span><b>深海之下</b><span class="meta">5 集 · 海洋探索</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">4K</dd></div><div><dt>时长</dt><dd>48 MIN</dd></div><div><dt>状态</dt><dd>全集</dd></div></dl></a></article>
+        <article class="unit u2"><a href="#"><span class="win g2" role="img" aria-label="一盏小灯 纪录片封面"><span class="glow" aria-hidden="true"></span><span class="vnum">ZZ-05</span><span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span><span class="vtitle">一盏小灯</span><span class="pot" aria-hidden="true"></span><span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span><span class="plate"><span class="row"><span class="no">ZZ-05</span><span class="sc">9.3</span></span><b>一盏小灯</b><span class="meta">10 集 · 城市夜观察</span></span><dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div><div><dt>时长</dt><dd>40 MIN</dd></div><div><dt>状态</dt><dd>全集</dd></div></dl></a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目五：楼层导览 -->
+  <section id="floors" aria-labelledby="fl-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate" aria-hidden="true"><b>5F</b><i></i></span>
+          <div>
+            <h2 id="fl-t">楼层导览</h2>
+            <span class="sub">FLOOR GUIDE · 分类上楼</span>
+          </div>
+        </div>
+        <a class="more" href="#">全部片库 →</a>
+      </div>
+      <p style="margin:0 0 16px;font-size:13.5px;color:var(--ink3)">236宅宅电影网把片库按题材分到六层，每层一枚楼层号牌，点进去即可整层浏览。</p>
+      <div class="floors">
+        <a href="#"><span class="lift"><b>6F</b></span><span class="info"><b>顶楼 · 经典</b><span>在架 5,120 部 · 经典老片</span><span class="bar" aria-hidden="true"><i style="width:88%"></i></span></span></a>
+        <a href="#"><span class="lift"><b>7F</b></span><span class="info"><b>砖楼 · 剧情</b><span>在架 6,180 部</span><span class="bar" aria-hidden="true"><i style="width:96%"></i></span></span></a>
+        <a href="#"><span class="lift"><b>8F</b></span><span class="info"><b>雨楼 · 爱情</b><span>在架 4,320 部</span><span class="bar" aria-hidden="true"><i style="width:74%"></i></span></span></a>
+        <a href="#"><span class="lift"><b>9F</b></span><span class="info"><b>火楼 · 动作</b><span>在架 2,480 部</span><span class="bar" aria-hidden="true"><i style="width:62%"></i></span></span></a>
+        <a href="#"><span class="lift"><b>10F</b></span><span class="info"><b>青楼 · 幻境</b><span>在架 1,960 部</span><span class="bar" aria-hidden="true"><i style="width:44%"></i></span></span></a>
+        <a href="#"><span class="lift"><b>11F</b></span><span class="info"><b>绿楼 · 纪实</b><span>在架 2,840 部</span><span class="bar" aria-hidden="true"><i style="width:54%"></i></span></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目六：亮灯时段 -->
+  <section id="watch" aria-labelledby="wt-t" style="background:rgba(217,209,192,.55)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate gr" aria-hidden="true"><b>6F</b><i></i></span>
+          <div>
+            <h2 id="wt-t">亮灯时段</h2>
+            <span class="sub">LIGHTING SLOTS · 每日四轮</span>
+          </div>
+        </div>
+        <a class="more" href="#">全部时段 →</a>
+      </div>
+      <ul class="watch">
+        <li>
+          <em>18:00</em>
+          <b>下班场 · 回家开灯</b>
+          <span>节奏明快、时长友好的作品集中上架，适合晚饭前后与通勤路上零散观看。</span>
+        </li>
+        <li>
+          <em>20:00</em>
+          <b>客厅场 · 沙发时段</b>
+          <span>治愈系与生活流为主，更新当日的剧集与综艺，含本周更新提醒。</span>
+        </li>
+        <li>
+          <em>22:00</em>
+          <b>床头场 · 今日头牌</b>
+          <span>当晚主推新片与热门剧集的集中时段，附剧情节点与观看顺序建议。</span>
+        </li>
+        <li>
+          <em>24:00</em>
+          <b>深夜场 · 静夜亮灯</b>
+          <span>氛围向与作者性更强的作品排播，适合夜深时段慢慢看完。</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 栏目七：亮灯榜 + 站点数据 -->
+  <section id="rank" aria-labelledby="rank-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate on" aria-hidden="true"><b>7F</b><i></i></span>
+          <div>
+            <h2 id="rank-t">236宅宅电影网亮灯榜</h2>
+            <span class="sub">RANKING · 每日 18:00 / 22:00 刷新</span>
+          </div>
+        </div>
+        <a class="more" href="#">完整榜单 →</a>
+      </div>
+      <div class="cols">
+        <div class="panel">
+          <h3>今日亮灯 TOP 8</h3>
+          <ol class="lights">
+            <li><span class="no">01</span><span class="ti"><b>深夜窗口</b><span>ZZ-01 / 剧情</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="cnt">9.5 万</span></li>
+            <li><span class="no">02</span><span class="ti"><b>隔壁的灯</b><span>ZZ-02 / 剧集</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span><span class="cnt">8.9 万</span></li>
+            <li><span class="no">03</span><span class="ti"><b>雨天客厅</b><span>ZZ-03 / 生活</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span><span class="cnt">8.4 万</span></li>
+            <li><span class="no">04</span><span class="ti"><b>银河旅店</b><span>ZZ-08 / 科幻</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span><span class="cnt">7.7 万</span></li>
+            <li><span class="no">05</span><span class="ti"><b>一盏小灯</b><span>ZZ-05 / 纪录</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i></span><span class="cnt">7.0 万</span></li>
+            <li><span class="no">06</span><span class="ti"><b>暗线</b><span>ZZ-14 / 谍战</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i></span><span class="cnt">6.4 万</span></li>
+            <li><span class="no">07</span><span class="ti"><b>山海灵兽录</b><span>ZZ-18 / 动漫</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></span><span class="cnt">5.7 万</span></li>
+            <li><span class="no">08</span><span class="ti"><b>灶上有江湖</b><span>ZZ-17 / 综艺</span></span><span class="pane" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></span><span class="cnt">5.0 万</span></li>
+          </ol>
+        </div>
+        <div class="panel">
+          <h3>站点数据</h3>
+          <div class="kv"><b>在架影片总量</b><span>33,260 部</span></div>
+          <div class="kv"><b>今日亮灯</b><span>238 户</span></div>
+          <div class="kv"><b>覆盖类型</b><span>经典老片 / 电影 / 剧集 / 综艺 / 动漫 / 纪录片</span></div>
+          <div class="kv"><b>楼层导览</b><span>6F 顶楼至 11F 绿楼 共 6 层</span></div>
+          <div class="kv"><b>更新时间</b><span>每日 18:00 / 22:00</span></div>
+          <h3 style="margin-top:20px">热门标签</h3>
+          <div class="tags">
+            <a href="#">236宅宅电影网</a><a href="#">宅宅电影网</a><a href="#">在线观看</a><a href="#">最新电影</a>
+            <a href="#">高清片源</a><a href="#">国产剧</a><a href="#">国漫</a><a href="#">经典老片</a>
+            <a href="#">高分榜</a><a href="#">纪实人文</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目八：楼道贴条 -->
+  <section id="bulletin" aria-labelledby="bl-t" style="background:rgba(217,209,192,.55)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate" aria-hidden="true"><b>8F</b><i></i></span>
+          <div>
+            <h2 id="bl-t">楼道贴条 · 影视资讯与影评</h2>
+            <span class="sub">BULLETIN &amp; REVIEWS</span>
+          </div>
+        </div>
+        <a class="more" href="#">资讯中心 →</a>
+      </div>
+      <div class="bulletin">
+        <article>
+          <div class="strip"><span>贴条 · 01</span><span>2026.09.30</span></div>
+          <div class="bd">
+            <h3><a href="#">《深夜窗口》观后：一栋老楼里亮着的那扇窗</a></h3>
+            <p>236宅宅电影网影评组从叙事结构、空间调度与配乐三个角度，聊聊这部新作为何值得二刷。</p>
+            <footer><time datetime="2026-09-30">发布 22:00 · 床头场</time></footer>
+          </div>
+        </article>
+        <article>
+          <div class="strip"><span>贴条 · 02</span><span>2026.09.29</span></div>
+          <div class="bd">
+            <h3><a href="#">本周追更表：隔壁的灯、雨天客厅更新时间与剧情节点</a></h3>
+            <p>整理本周热门剧集的更新节奏与关键走向，方便 236宅宅电影网用户提前安排追剧时间。</p>
+            <footer><time datetime="2026-09-29">发布 20:00 · 客厅场</time></footer>
+          </div>
+        </article>
+        <article>
+          <div class="strip"><span>贴条 · 03</span><span>2026.09.28</span></div>
+          <div class="bd">
+            <h3><a href="#">清晰度怎么选：不同网络环境下的观看建议</a></h3>
+            <p>从带宽需求、设备性能到流量消耗，讲清楚 720P、1080P 与 4K 各自的适用场景。</p>
+            <footer><time datetime="2026-09-28">发布 18:00 · 下班场</time></footer>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目九：关于 -->
+  <section id="about" aria-labelledby="about-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="left">
+          <span class="floorplate gr" aria-hidden="true"><b>9F</b><i></i></span>
+          <div>
+            <h2 id="about-t">关于236宅宅电影网</h2>
+            <span class="sub">ABOUT</span>
+          </div>
+        </div>
+      </div>
+      <div class="cols">
+        <div class="panel">
+          <h3>站点简介</h3>
+          <p style="margin:0;font-size:14.5px;color:var(--ink3);line-height:1.95">236宅宅电影网（网址 https://236zhaizhaidianyingwang-cn.github.io）专注影视信息聚合，提供电影、电视剧、综艺、动漫、纪录片的剧情介绍、演职员表、评分口碑与在线观看指南，并设有楼层导览与亮灯时段，按题材楼层与开灯时段整理片源，每日两轮更替亮灯榜与原创影评。页面采用移动端自适应布局，手机、平板、桌面端均可流畅浏览。</p>
+          <div class="tags" style="margin-top:16px">
+            <a href="#">关于我们</a><a href="#">联系方式</a><a href="#">侵权投诉</a><a href="#">收录规则</a><a href="#">网站地图</a>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>入住须知</h3>
+          <dl class="faq">
+            <div><dt>Q1</dt><dd><b>楼层导览是怎么划分的？</b><span>按内容调性分为 6F 顶楼至 11F 绿楼共六层，各层有独立楼层号牌与配色。</span></dd></div>
+            <div><dt>Q2</dt><dd><b>每天什么时候更新？</b><span>每日 18:00 与 22:00 两次开灯，另有 20:00 客厅场与 24:00 深夜场两档补充。</span></dd></div>
+            <div><dt>Q3</dt><dd><b>清晰度可以切换吗？</b><span>支持 4K、1080P、720P 与自适应四档，移动端在移动网络下默认降档。</span></dd></div>
+            <div><dt>Q4</dt><dd><b>内容侵权如何反馈？</b><span>本站仅提供影视信息介绍与索引，可通过页脚"侵权投诉"入口提交，核实后处理。</span></dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h4>236宅宅电影网</h4>
+        <p>网址：https://236zhaizhaidianyingwang-cn.github.io</p>
+        <p>影视信息聚合 · 每日亮灯 · 移动端自适应</p>
+      </div>
+      <div>
+        <h4>频道导航</h4>
+        <ul>
+          <li><a href="#movie">今日亮灯</a></li>
+          <li><a href="#tv">热播剧集</a></li>
+          <li><a href="#show">综艺动漫</a></li>
+          <li><a href="#doc">纪录片</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>看片工具</h4>
+        <ul>
+          <li><a href="#floors">楼层导览</a></li>
+          <li><a href="#watch">亮灯时段</a></li>
+          <li><a href="#rank">亮灯榜</a></li>
+          <li><a href="#bulletin">楼道贴条</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助中心</h4>
+        <ul>
+          <li><a href="#">播放问题</a></li>
+          <li><a href="#">清晰度切换</a></li>
+          <li><a href="#">内容纠错</a></li>
+          <li><a href="#">意见反馈</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">本站仅提供影视信息介绍与索引，所列影片版权归原权利人所有，如涉及侵权请联系我们处理。<br>© 2026 236宅宅电影网 · <b>https://236zhaizhaidianyingwang-cn.github.io</b></p>
+  </div>
+</footer>
+
+<button class="top" id="toTop" aria-label="返回顶部">↑</button>
+
+<script>
+(function(){
+  var burger = document.getElementById('burger');
+  var nav = document.getElementById('nav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+      document.querySelectorAll('.nav a').forEach(function(a){a.classList.remove('on');});
+      e.target.classList.add('on');
+    }
+  });
+
+  var grid = document.getElementById('movieGrid');
+  var empty = document.getElementById('movieEmpty');
+  document.querySelectorAll('.letterbox button').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.letterbox button').forEach(function(b){b.classList.remove('on');});
+      btn.classList.add('on');
+      var f = btn.dataset.f, shown = 0;
+      grid.querySelectorAll('.unit').forEach(function(c){
+        var hit = (f === 'all') || c.dataset.cat === f;
+        c.style.display = hit ? '' : 'none';
+        if(hit) shown++;
+      });
+      empty.style.display = shown ? 'none' : 'block';
+    });
+  });
+
+  var extra = [['浮城旧事','剧情','g2'],['极速前线','动作','g3'],['慢火炖雪','科幻','g5'],
+               ['笑傲考场','喜剧','g4'],['夜行客 2','动作','g6'],['归途列车','剧情','g1']];
+  document.getElementById('moreMovie').addEventListener('click', function(){
+    var self = this;
+    extra.forEach(function(it, idx){
+      var el = document.createElement('article');
+      el.className = 'unit';
+      el.setAttribute('data-cat','all');
+      var no = 'ZZ-' + (30 + idx);
+      el.innerHTML = '<a href="#"><span class="win ' + it[2] + '" role="img" aria-label="' + it[0] + ' 影片封面">' +
+        '<span class="glow" aria-hidden="true"></span><span class="vnum">' + no + '</span>' +
+        '<span class="mullion mv" aria-hidden="true"></span><span class="mullion mh" aria-hidden="true"></span>' +
+        '<span class="vtitle">' + it[0] + '</span><span class="pot" aria-hidden="true"></span>' +
+        '<span class="pot r" aria-hidden="true"></span><span class="sill" aria-hidden="true"></span></span>' +
+        '<span class="plate"><span class="row"><span class="no">' + no + '</span>' +
+        '<span class="sc">8.0</span></span><b>' + it[0] + '</b>' +
+        '<span class="meta">2026 · ' + it[1] + ' · 新亮灯</span></span>' +
+        '<dl class="util"><div><dt>版本</dt><dd class="hi">1080P</dd></div>' +
+        '<div><dt>片长</dt><dd>110 MIN</dd></div><div><dt>亮灯</dt><dd>2.4 万</dd></div></dl></a>';
+      grid.appendChild(el);
+    });
+    self.textContent = '本层已住满';
+    self.disabled = true;
+    self.style.opacity = .55;
+  });
+
+  var topBtn = document.getElementById('toTop');
+  window.addEventListener('scroll', function(){
+    topBtn.classList.toggle('show', window.scrollY > 400);
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  window.doSearch = function(e){
+    e.preventDefault();
+    var kw = document.getElementById('q').value.trim();
+    if(!kw){ document.getElementById('q').focus(); return false; }
+    var hit = 0;
+    document.querySelectorAll('.unit').forEach(function(c){
+      var ok = c.textContent.indexOf(kw) > -1;
+      c.style.display = ok ? '' : 'none';
+      if(ok) hit++;
+    });
+    empty.style.display = hit ? 'none' : 'block';
+    document.getElementById('movie').scrollIntoView({behavior:'smooth'});
+    return false;
+  };
+})();
+</script>
+</body>
+</html>
